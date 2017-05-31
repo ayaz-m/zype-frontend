@@ -9,7 +9,7 @@ jQuery(document).ready(function () {
 
 });
 function getData() {
-    var apiUrl = 'https://api.zype.com/videos/?api_key=H7CF2IHbEc6QIrMVwb2zfd9VI14HHGAfYax1eHEUsJ4voYuqWF2oWvByUOhERva_'
+    var apiUrl = 'https://api.zype.com/videos/?api_key=H7CF2IHbEc6QIrMVwb2zfd9VI14HHGAfYax1eHEUsJ4voYuqWF2oWvByUOhERva_';
     $.getJSON(apiUrl, function (data) {
         // Get the element with id summary and set the inner text to the result.
         var imgThumb;
