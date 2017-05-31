@@ -52,3 +52,10 @@ body, html {
 section {
     margin: 0 0 56px 0px;
 }
+@media all and (max-width:600px) {
+  /* put your css styles in here */
+  .section h2 {
+      font-size: 14px;
+        padding: 8px 6px;
+  }
+}
